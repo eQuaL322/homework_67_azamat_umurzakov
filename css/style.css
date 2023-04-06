@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+}
+
+.notification {
+    position: center;
+    max-width: 250px;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    text-align: center;
+    margin: 10px auto;
+}
+
+.not-text {
+    color: wheat;
+    font-family: "Apple Braille", sans-serif;
+}
+
+.close-btn {
+    font-family: "Apple Braille", sans-serif;
+    padding: 5px 10px;
+    background-color: orchid;
+    border: .5px solid rebeccapurple;
+    border-radius: 5px;
+}
+
+.close-btn:hover {
+    background-color: red;
+}
